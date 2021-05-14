@@ -1,0 +1,79 @@
+body {
+	background-color: #000000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0; 
+	padding: 0;
+	color:black;
+}
+.head {
+	width: 800px;
+}
+
+.center {
+	background-color: #2C363F;
+	padding-top: 10px;
+}
+
+.frame{
+	width: 310px;
+	height: 315px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	margin: 20px 15px;
+	background-position: center;
+	background-size: cover;
+}
+
+.frame h1 {
+	font-size: 30px;
+	margin-top: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+.cam1 {
+	background-image: url('https://i.ytimg.com/vi/LHOcI-uA0DI/maxresdefault.jpg');
+}
+
+.cam2 {
+	background-image: url('https://th.bing.com/th/id/OIP.47Db-MXCTcJsiOtVuIgBjgHaFC?pid=ImgDet&rs=1');
+}
+.cam4 {
+	background-image: url('https://www.thephoblographer.com/wp-content/uploads/2020/05/P5230173-scaled.jpg');
+}
+.cam6 {
+	background-image: url('https://th.bing.com/th/id/OIP.yuGxazllrWGLek8yDQd9RQHaEK?pid=ImgDet&rs=1');
+}
+
+.frame:hover{
+	transform: translateY(-12px);
+	transition: 0.8s;
+}
+
+.links{
+	text-decoration: none;
+	color:#E6E6FA;
+}
+.links:visited {
+	color:#FAFAD2;
+}
+.links:hover, .links:focus{
+	color:#FED766;
+}	
+.links:active{
+	color:#E8DB7D;
+}
+
+.box:hover {
+	box-shadow:4px 4px 7px black;
+}
+h1.title {
+	font-family:'Source Serif Pro', serif;
+	font-size: 100px;
+	text-shadow: 3px 3px 5px black;
+	color:#D3D3D3;
+}

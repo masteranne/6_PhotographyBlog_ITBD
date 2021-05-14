@@ -1,0 +1,82 @@
+body {
+	background-color: #435561;
+	margin: 0px;
+	color:#D3D3D3;
+}
+.body {
+	margin: 15px 50px;
+}
+h1,h2 {
+	text-align: left;
+	font-size: 35px;
+	text-shadow: 1px 2px 2px black;
+	font-family:'Source Serif Pro', serif;
+	color:white;
+
+}
+p{
+	font-size: 18px;
+	line-height: 2em;
+	letter-spacing: 1.5px;
+	margin-top: 0px;
+	font-family: 'Encode Sans', sans-serif;
+	text-align: justify;
+	color:#D3D3D3;
+}
+a.place{
+        background-color:black;
+        display: inline-block;
+        margin: 55px 20px 30px;
+        padding: 15px 10px 60px 10px;
+        text-decoration: none; 
+        transition: transform .5s;
+       box-shadow: 3px 2px 10px black;
+    }
+    li.list {
+    	text-align: left;
+    	font-size: 20px;
+    	font-family: 'Encode Sans', sans-serif;
+    	line-height:2em;
+    	list-style-image: url('https://cutekawaiiresources.files.wordpress.com/2018/03/1544.gif?w=700&h=');
+    }
+
+li.list1 {
+    	text-align: left;
+    	font-size: 20px;
+    	font-family: 'Encode Sans', sans-serif;
+    	line-height:2em;
+    	color:white;
+    	list-style-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/768df49b-9b9a-45f9-b8b9-56558c7b0cfb/d74yd08-27f6dbc6-4faa-4b97-86be-57da1963e711.gif');
+    }
+    ol {
+    	text-align: left;
+    	font-size: 20px;
+    	font-family: 'Encode Sans', sans-serif;
+    }
+li.list2 {
+	color:white;
+	text-align: left;
+    	font-size: 20px;
+    	font-family: 'Encode Sans', sans-serif;
+	list-style-image:url('https://cutekawaiiresources.files.wordpress.com/2018/03/11105.gif?w=560');
+	line-height:2em;
+}
+
+li.last {
+	text-align: left;
+    	font-size: 20px;
+    	font-family: 'Encode Sans', sans-serif;
+    	line-height:1.5em;
+	list-style-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/768df49b-9b9a-45f9-b8b9-56558c7b0cfb/d7w7ez3-68f87a4f-f63b-4288-934c-c41ae6bc9b49.gif');
+}
+li.list3{
+	color:white;
+	text-align: left;
+    	font-size: 20px;
+    	font-family: 'Encode Sans', sans-serif;
+    	line-height:1.5em;
+}
+.foot {
+	margin:0px 50px;
+}
+

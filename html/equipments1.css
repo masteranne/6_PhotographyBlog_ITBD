@@ -1,0 +1,53 @@
+body {
+	background-color: black;
+	margin: 0;
+	color:#D3D3D3;
+}
+
+img.avatar:hover {
+            opacity: 1;
+           transform: scale(1.1);
+                 
+}
+
+.avatarIcon {
+            height: 250px;     
+            opacity: 0.50;
+}
+
+h1.name{
+	font-family:'Source Serif Pro', serif;
+	font-size: 140px;
+	text-shadow: 3px 3px 5px gray;
+}
+h1,h2 {
+	font-family:'Source Serif Pro', serif;
+}
+h2 {
+	text-align: left;
+	font-size: 30px;
+}
+p.sub {
+	font-size: 20px;
+font-family: 'Encode Sans', sans-serif;
+text-align: center;
+}
+p {
+	font-size: 20px;
+	line-height: 1.5em;
+font-family: 'Encode Sans', sans-serif;
+text-align: justify;
+}
+
+.content {
+	margin: 50px;
+}
+.foot {
+	margin:0px 50px;
+}
+a {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+

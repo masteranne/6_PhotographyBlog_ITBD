@@ -1,0 +1,137 @@
+.head{
+	background-color:black;
+}
+.head img {
+	position: absolute;
+	width: 145px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.head .parent{
+	display:flex;
+	text-align:justify;
+}
+.head .block1{
+	text-align:left;
+	margin: 0px;
+	display: inline-block;
+	width: 15%;
+}
+.head .block2{
+	text-align:center;
+	margin: 0px 0px 0px 740px;
+	display: inline-block;
+	width: 85%;
+}
+.navbar{
+	text-align:center;
+}
+.navbar a{
+	text-decoration:none;
+	color:white;
+	margin:0px 10px 0px 0px;
+	padding: 21px 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+.navbar ul{
+	display:inline-flex;
+	list-style:none;
+	color:#ffffff;
+}
+.navbar ul li{
+	width:120px;
+	padding:15px;
+	margin:3px ;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+.active{
+	text-transform: uppercase;
+}
+.navbar ul li:hover{
+	background-color:#2C363F;
+	border-radius: 3px;
+}
+.submenu1{
+	display:none;
+}
+.submenu1 ul{;
+	padding:0px;
+	margin:0px; 
+}
+.navbar ul li:hover .submenu1{
+	display:block;
+	position:absolute;
+	background-color:black;
+	margin-top:15px;
+	margin-left:-15px;
+}
+.navbar ul li:hover .submenu1 ul{
+	text-align:center;
+	display:block;
+}
+.navbar ul li:hover .submenu1 ul li{
+	width:250px;
+	padding:10px;
+}
+.navbar ul li:hover .submenu2 ul li{
+	width:350px;
+	padding:10px;
+}
+.navbar ul li:hover .submenu3 ul li{
+	width:150px;
+	padding:10px;
+}
+.navbar ul li:hover .submenu4 ul li{
+	width:260px;
+	padding:10px;
+}
+.submenu2{
+	display:none;
+}
+.submenu3{
+	display:none;
+}
+.submenu4{
+	display:none;
+}
+.hoverme:hover .submenu2{
+	position:absolute;
+	display:block;
+	margin-top:-30px;
+	margin-left:-370px;
+	background-color:black;
+}
+.hoverme:hover .submenu3{
+	position:absolute;
+	display:block;
+	margin-top:-30px;
+	margin-left:-185px;
+	background-color:black;
+}
+.hoverme:hover .submenu4{
+	position:absolute;
+	display:block;
+	margin-top:-30px;
+	margin-left:-295px;
+	background-color:black;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+}
+.iconup {
+	background-color: white;
+	width: 70px;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+}

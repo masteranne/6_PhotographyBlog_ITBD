@@ -1,0 +1,250 @@
+h1 {
+	text-align: left;
+	font-size: 37px;
+	text-shadow: 1px 2px 2px black;
+	font-family:'Source Serif Pro', serif;
+
+}
+body {
+	background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0; 
+	padding: 0;
+	color:#D3D3D3;
+}
+
+a.blogs:hover, a.blogs:active, a.blogs:focus {
+	color:#FED766;
+}
+
+.grid-container {
+ display: grid;
+  grid-template-columns: 1fr 1fr 0.1fr 1.9fr;
+  grid-template-rows: 0.8fr -1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pic-1 pic-1 pic-1 pic-2"
+    ". . . ."
+    ". . . .";
+    background-color: #2C363F;   
+}
+.pic-1 { 
+	grid-area: pic-1; 
+	margin-left: 20px;
+ background-image: url('https://images.squarespace-cdn.com/content/v1/59af597a197aea0fbfd06c5f/1562118896070-HJLC1EXLJ4BORH5SNLC4/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/that+vintage+lens+branden+stanley+graflex+crown+graphic+large+format+pretension+film+photography');
+  background-repeat: no-repeat;
+   background-size: 720px 480px;
+}
+.pic-2 { 
+	grid-area: pic-2; 
+	margin-top: 30px;
+   background-image: url('https://www.americantravelgeek.com/wp-content/uploads/2020/08/bram-kunnen-KkMlF-7hGVY-unsplash-scaled.jpg'); 
+   background-repeat: no-repeat;
+    background-size: 400px 300px;
+    margin-left: 120px;
+}
+
+.pic-2 h1 {
+	margin-top: 265px;
+	margin-left: 4px;
+}
+.pic-1 h1 {
+	margin-top: 155px;
+	margin-left: 15px;
+}
+
+a.blogs{
+	text-decoration: none;
+	color:white;
+	letter-spacing: 2px;
+}
+.loc {
+	width: 800px;
+	margin: 0px;
+
+
+}
+
+/* Unang Flex box */
+.flexbox {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+
+.flexbox div {
+
+	padding: 2px
+
+}
+
+.content1 {
+	flex:1;
+
+
+}
+
+.content2 {
+	flex:2;
+	padding-left: 100px
+}
+
+
+
+.flexbackground1 {
+	background-image: url('../pictures/bg5.gif');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.flexbackground3 {
+	
+	
+}
+
+/* Pangalawang Flex box */
+
+.flexbox1 {
+	display: flex;
+}
+
+.flexbox1 div {
+	padding: 5px
+}
+
+.content3 {
+	flex:2;
+
+}
+
+.content4 {
+	flex:1;
+
+}
+
+.center1 {
+	display: block;
+	margin: auto;
+}
+
+/* Pangatlong Flex box */
+
+.flexbox2 {
+	display: flex;
+
+}
+
+.flexbox2 div {
+	padding: 5px
+	
+}
+
+.content5 {
+	flex:1;
+}
+
+.content6 {
+	flex:1;
+
+}
+
+.content7 {
+	flex:1;
+
+
+}
+
+.flexpic {
+	width: 320px;
+	display: block;
+}
+
+.flexbackground2 {
+	background-color: #435560;
+
+}
+
+
+/* Pangapat na Flex box */
+
+.flexbox3 {
+	display: flex;
+}
+
+.flexbox3 div {
+
+
+	padding: 5px
+
+}
+
+.content8 {
+	flex:2;
+
+}
+
+.content9 {
+	flex:1;
+
+}
+
+/* Panglima na Flex box */
+
+.flexbox4 {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+
+.flexbox4 div {
+
+	padding: 2px
+
+}
+
+.content10 {
+	flex:1;
+
+
+}
+
+.content11 {
+	flex:2;
+	padding-left: 100px
+}
+.title {
+	padding: 20px 0px 0px 0px;
+	font-size: 25px;
+}
+.textcontent{
+	font-size: 18px;
+	line-height: 1.5em;
+	letter-spacing: 1.5px;
+	margin-top: 0px;
+	font-family: 'Encode Sans', sans-serif;
+	text-align: justify;
+}
+
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ text-align: right;
+
+}
+
+.iconup {
+  background-color: white;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+
+}

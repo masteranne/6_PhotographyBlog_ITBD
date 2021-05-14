@@ -1,0 +1,21 @@
+body {
+	background-image: url('../pictures/wallpaper.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0; 
+	padding: 0;
+	color:black;
+}
+p#desc {
+			font-family: 'Encode Sans', sans-serif;
+			font-size: 20px;
+			color:#D3D3D3;
+			font-weight: bold;
+			text-align: center;
+			background-color:black;
+			line-height: 1.5em;
+			letter-spacing: 2px;
+			padding-top: 30px;
+			text-align: center;
+		}

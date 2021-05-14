@@ -1,0 +1,121 @@
+header{
+	background-color:#2C363F;
+	padding:30px;
+	text-shadow: 2px 3px 4px black;
+}
+
+body{
+	background-size: cover;
+	background-position: center;
+	background-color: #000000;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: 'Encode Sans', sans-serif;
+
+}
+
+
+
+.format{
+	/*width:65%; */
+	/*border:15px solid #435561; */
+	padding: 0px;
+	margin:0px auto;
+	font-size: 18px;
+	line-height: 1.5em;
+	letter-spacing: 1.5px;
+}
+header h1{
+	text-align: center;
+	font-size: 60px;
+	color:#D3D3D3;
+	margin:1.5em 0px;
+	font-family: 'Source Serif Pro', serif;
+}
+
+p{
+	color:#D3D3D3;
+	font-family: 'Encode Sans', sans-serif;
+	text-align: justify;
+	
+}
+
+h2{
+	font-size: 2.0rem;
+	color:#D3D3D3;
+	font-family:'Source Serif Pro', serif;
+}
+
+.blog{
+
+	/* background-color: #435561; */
+	padding: 0px 10px 10px 10px;
+	margin-bottom: 30px;
+
+}
+
+.left{
+	float:left;
+	padding-right: 20px;
+	margin:10px;
+}
+
+.left img{
+	height:200px;
+}
+
+.blog video{
+	width:100%;
+	padding-bottom:20px;
+}
+
+hr{
+	border:0;
+	height:0;
+	border-top: 1px solid #fff;
+	padding-bottom:10px;
+}
+
+p{
+	
+	color: #D3D3D3;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+ol{
+	color: #D3D3D3;
+
+}
+
+.center a{
+	text-align:center;
+	background-color: #2C363F;
+	padding: 14px 25px;
+	text-decoration: none;
+	display: block;
+	color: #D3D3D3;
+}
+
+
+/* */
+
+.bodybg {
+	background-image: url('../pictures/lingatbg.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.phototricks {
+	display: flex;
+	justify-content: center;
+}
+
+.photo1 {
+	flex: 1;
+}
+
+.photo2 {
+	flex: 2;
+}
+

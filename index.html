@@ -1,0 +1,309 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Pridi:wght@400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style type="text/css">
+    	body {
+    		background-image: url('pictures/wall5.gif');
+    		background-size: cover;
+    		background-repeat: no-repeat;
+    		margin: 0; 
+    		padding: 0;
+    		color:white;
+    	}
+    	.body {
+    		margin-left: 115px;
+    		margin-bottom: 0px;
+    	}
+    	h1 {
+    		text-shadow: 2px 2px 3px #D3D3D3;
+    		font-family:'Source Serif Pro', serif;
+    		letter-spacing: 4px;
+    		font-size: 100px;
+    		margin-left: 75px;
+    		margin-bottom: 0px;
+    		margin-top: 45px;
+    	}
+    	p {
+    		font-size: 20px;
+    		line-height: 30px;
+    		letter-spacing: 1.5px;
+    		margin-top: 30px;
+    		margin-bottom: 0px;
+    		font-family: 'Encode Sans', sans-serif;
+    		color:#D3D3D3;
+    		text-align: justify;
+    	}
+    	.explore {
+    		background-color: #dcdcdc;
+    		color: black;
+    		font-family:'Source Serif Pro', serif;
+    		text-decoration:none;
+    		font-size: 20px;
+    		text-transform: small-caps;
+
+    		
+    		border:3px outset white;
+    		border-radius: 10px;
+    		padding: 8px;
+    		/*margin-left: 445px; */
+    		
+
+    	}
+
+    	.explore:hover{
+    		background-color: black;
+    		color:white;
+    	}
+    	.explore:focus {
+    		background-color: #708090;
+    		border:2px double white;
+    		color:white;
+    	}
+
+    	.explore:active{
+    		background-color: #696969;
+    		color:black;
+    		position: relative;
+    		top: 2px;
+    		border:3px inset white;
+    	} 
+
+
+    	.gifbutton {
+
+    		/*border: 1px solid white; */
+    		width: 150px;
+    		height: 150px;
+    		padding: 0px;
+    		margin: 0px 10px 10px 465px;
+    		/* margin-left: 555px; */
+
+    		
+    	}
+
+    	.gifbutton:hover {
+    		background-image: url('pictures/camera1.gif');
+    		background-size: cover;
+    	}
+
+
+		.head img {
+			position: absolute;
+			width: 145px;
+			margin-left: 30px;
+			margin-top: 15px;
+		}
+		.head .parent{
+			display:flex;
+			text-align:justify;
+		}
+		.head .block1{
+			text-align:left;
+			margin: 0px;
+			display: inline-block;
+			width: 15%;
+		}
+		.head .block2{
+			text-align:center;
+			margin: 0px 0px 0px 740px;
+			display: inline-block;
+			width: 85%;
+		}
+		.navbar{
+			text-align:center;
+		}
+		.navbar a{
+			text-decoration:none;
+			color:white;
+			margin:0px 10px 0px 0px;
+			padding: 21px 15px;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			color: white;
+		}
+		.navbar ul{
+			display:inline-flex;
+			list-style:none;
+			color:#ffffff;
+		}
+		.navbar ul li{
+			width:120px;
+			padding:15px;
+			margin:3px ;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-weight: bold;
+			color: white;
+		}
+		.active{
+			text-transform: uppercase;
+		}
+		.navbar ul li:hover{
+			background-color:#2C363F;
+			border-radius: 3px;
+		}
+		.submenu1{
+			display:none;
+		}
+		.submenu1 ul{;
+			padding:0px;
+			margin:0px; 
+		}
+		.navbar ul li:hover .submenu1{
+			display:block;
+			position:absolute;
+			background-color:black;
+			margin-top:15px;
+			margin-left:-15px;
+		}
+		.navbar ul li:hover .submenu1 ul{
+			text-align:center;
+			display:block;
+		}
+		.navbar ul li:hover .submenu1 ul li{
+			width:250px;
+			padding:10px;
+		}
+		.navbar ul li:hover .submenu2 ul li{
+			width:350px;
+			padding:10px;
+		}
+		.navbar ul li:hover .submenu3 ul li{
+			width:150px;
+			padding:10px;
+		}
+		.navbar ul li:hover .submenu4 ul li{
+			width:260px;
+			padding:10px;
+		}
+		.submenu2{
+			display:none;
+		}
+		.submenu3{
+			display:none;
+		}
+		.submenu4{
+			display:none;
+		}
+		.hoverme:hover .submenu2{
+			position:absolute;
+			display:block;
+			margin-top:-30px;
+			margin-left:-370px;
+			background-color:black;
+		}
+		.hoverme:hover .submenu3{
+			position:absolute;
+			display:block;
+			margin-top:-30px;
+			margin-left:-185px;
+			background-color:black;
+		}
+		.hoverme:hover .submenu4{
+			position:absolute;
+			display:block;
+			margin-top:-30px;
+			margin-left:-295px;
+			background-color:black;
+		}
+    </style>
+
+
+    </script>
+
+
+</head>
+
+<body>
+	<div class="head">
+		<div class="parent">
+			<div class="block1">
+				<img src="pictures/logo.png">
+			</div>
+			<div class="block2">
+				<div class="navbar">
+					<nav>
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="html/blogs1.html">Blogs</a>
+								<div class="submenu1">
+									<ul>
+										<li><a href="html/history.html">History of Photography</a></li>
+										<li class="hoverme"><a href="html/equipments.html">Photography Equipments</a>
+											<div class="submenu3">
+												<ul>
+													<li><a href="html/canon.html">Canon</a></li>
+													<li><a href="html/nikon.html">Nikon</a></li>
+													<li><a href="html/fujifilm.html">Fujifilm</a></li>
+													<li><a href="html/leica.html">Leica</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="hoverme"><a href="html/locations.html">Photoshoot Locations</a>
+											<div class="submenu3">
+												<ul>
+													<li><a href="html/venice.html">Venice</a></li>
+													<li><a href="html/pinto.html">Pinto</a></li>
+													<li><a href="html/paco.html">Paco</a></li>
+													<li><a href="html/intrmuros.html">Intramuros</a></li>
+													<li><a href="html/ecopark.html">Eco Park</a></li>
+												</ul>
+											</div></li>
+										<li><a href="html/famous.html">Filipino Photographers</a></li>
+										<li><a href="html/terms.html">Photography Terms</a></li>
+										<li class="hoverme">Photography Rules
+											<div class="submenu2">
+												<ul>
+													<li><a href="html/blogRIP1.html">10 Basic Composition Rules</a></li>
+													<li><a href="html/blogRIP2.html">7 Ways for Next Level Photography</a></li>
+													<li><a href="html/blogRIP3.html">4 Advance Tips for Photography</a></li>
+													<li><a href="html/blogRIP4.html">10 Top Photography Composition Rules</a></li>
+													<li><a href="html/blogRIP5.html">9 Composition Rules You Want to Know</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="html/TOPLandingPage.html">Photography Types</a></li>
+										<li class="hoverme"><a href="html/PhotographyIdeas2.html">Photography Hacks</a>
+											<div class="submenu4">
+												<ul>
+													<li><a href="html/PhotographyIdeas2.html">String Tripod</a></li>
+													<li><a href="html/Page2.html">Cereal Softbox</a></li>
+													<li><a href="html/Page3.html">Paper Lens Hood</a></li>
+													<li><a href="html/Page4.html">Make Custom Bokeh Shapes</a></li>
+													<li><a href="html/Page5.html">Make DIY Light Box</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="html/facts.html">Photography Facts</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="html/aboutus.html">About Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="body">
+		<h1>Photography</h1>
+		<p>This blog will focus on the world of photography. Whether you are an aspiring <br> photographer just starting out or a professional photographer looking to build <br>  your business, you need to keep pace  with the rapidly changing trends and new<br>  technologies coming out every month.</p>
+		<br><br>		
+	</div>
+
+	<div class="gifbutton">
+		<br><br><br><br><br><br><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="html/blogs1.html" class="explore"> Explore!</a>
+	</div>
+	<!--
+	<div class="gifbutton">
+		<a href="html/blogs1.html" class="explore"> Explore!</a>
+	</div> -->
+</body>
+</html>
